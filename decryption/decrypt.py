@@ -165,7 +165,7 @@ def main():
     print("已加载私钥")
     
     # 检查加密视频文件是否存在
-    video_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "encryption", "output", "encrypted.avi")
+    video_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "input", "test.avi")
     if not os.path.exists(video_path):
         print("错误：找不到加密视频文件，请先运行加密程序")
         return
